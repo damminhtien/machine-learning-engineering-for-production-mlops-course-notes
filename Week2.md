@@ -14,3 +14,7 @@
 ### 1.3 Establish a baseline
 + Establishing a baseline level of performance
 + Unstructured and structured data
+### 1.4 Tips for getting started
++ Literature search to see what's possible (course, blogs, open-source projects)
++ Find open-souce implementations if available
++ A reasonable algorimth with good data will often outperform a great algorimth with no so good data
