@@ -21,10 +21,10 @@
    + Find open-souce implementations if available
    + A reasonable algorimth with good data will often outperform a great   algorimth with no so good data
 + Holding the model fixed, work to improve the data to do well on the problem
-# 2. Error analysis and performance auditing
-## 2.1 Error analysis example 
+## 2. Error analysis and performance auditing
+### 2.1 Error analysis example 
 + Error analysis is a heart of machine learning development process
-## 2.2 Prioritizing what to work on
+### 2.2 Prioritizing what to work on
 + Decide on most important categories to work on based on:
    + How much room for improvement there is
    + How frequently that category appears
@@ -35,11 +35,11 @@
       +  Collect more data
       +  Use data augmentation to get more data
       +  Improve label accuracy/data quality
-## 2.3 Skewed dataset
+### 2.3 Skewed dataset
 + Skewed dataset is the dataset having ratio of positive-negative very far from 50-50
 + Use confusion matrix
 + Precision, Recall, F1
-## 2.4 Auditing Performance
+### 2.4 Auditing Performance
 1. Brainstorm the ways the system might go wrong
    + Performance on subsets of data (eg ethnicity, gender)
    + How common are certain errors (eg FP, FN)
@@ -55,3 +55,10 @@
 + Data centric view
 +  The quality of data is paramount. Use tools to improve the data quality, this will allow multiple models to do well
 +  Hold the code fixed and iteratively improve the data
+### 2.2 Data augmentation 
++ Goal: Create realistic examples that the algorimth does poorly on, but humans (or other baseline) do well on
+### 2.3 Can adding data hurt
+For unstructured data problems, if:
++  The model is large (low bias)
++  The mapping x -> y is clear (eg given only the input x, humans can make accurate predictions)<br>
+The adding data rarely hurts accuracy.
