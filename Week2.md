@@ -55,10 +55,40 @@
 + Data centric view
 +  The quality of data is paramount. Use tools to improve the data quality, this will allow multiple models to do well
 +  Hold the code fixed and iteratively improve the data
-### 2.2 Data augmentation 
+### 2.2 A useful picture of data augmentation 
+### 2.3 Data augmentation 
 + Goal: Create realistic examples that the algorimth does poorly on, but humans (or other baseline) do well on
-### 2.3 Can adding data hurt
+### 2.4 Can adding data hurt
 For unstructured data problems, if:
 +  The model is large (low bias)
 +  The mapping x -> y is clear (eg given only the input x, humans can make accurate predictions)<br>
-The adding data rarely hurts accuracy.
+The adding data rarely hurts accuracy
+### 2.5 Adding features
+### 2.6 Experiment tracking
++ What to track?
+   + Algorimth/code versioning
+   + Dataset used
+   + Hyperparameters
+   + Result
++ Tracking tools
+   + Text files
+   + Spreadsheet
+   + Experiment tracking system
++ Desirable features
+   + Information needed to replicate result
+   + Experiment result, ideally with summary metrics/analysis
+   + Perhaps also: resource monitoring, visuallisation, model error analysis
+### 2.7 From bigdata to good data
+Try to ensure consistently high-quality data in all phases of the ML project lifecycle <br>
+Good data:
++ Covers important cases (good coverage of inputs x)
++ Is defined consistently (definition of labels y is unambiguous)
++ Has timely feedback from production data (distribution covers data drift and concept drift)
++ Is sized appropriately
+
+## Week 2 Optional References
+1. [Establishing a baseline](https://blog.ml.cmu.edu/2020/08/31/3-baselines/)
+2. [Error analysis](https://techcommunity.microsoft.com/t5/azure-ai/responsible-machine-learning-with-error-analysis/ba-p/2141774)
+3. [Experiment tracking](https://neptune.ai/blog/ml-experiment-tracking)
+4. Brundage, M., Avin, S., Wang, J., Belfield, H., Krueger, G., Hadfield, G., … Anderljung, M. (n.d.). Toward trustworthy AI development: Mechanisms for supporting verifiable claims∗. Retrieved May 7, 2021 [link](http://arxiv.org/abs/2004.07213v2)
+5. Nakkiran, P., Kaplun, G., Bansal, Y., Yang, T., Barak, B., & Sutskever, I. (2019). Deep double descent: Where bigger models and more data hurt. [link](http://arxiv.org/abs/1912.02292)
