@@ -49,3 +49,9 @@
 
 ## 2. Data centric
 ### 2.1 Data-centric AI development
++ Model centric view
+   + Take the data you have, and develop a model that does as well as possible on it
+   + Hold the data fixed and iteratively improve the code/model
++ Data centric view
++  The quality of data is paramount. Use tools to improve the data quality, this will allow multiple models to do well
++  Hold the code fixed and iteratively improve the data
