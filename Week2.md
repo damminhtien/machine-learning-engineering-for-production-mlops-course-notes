@@ -1,4 +1,5 @@
 # Week 2: Select and Train a Model
+
 ## 1. Selecting and Training a Model
 ### 1.1 Key challenges
 + Model development is an iterative process
@@ -22,3 +23,29 @@
 + Holding the model fixed, work to improve the data to do well on the problem
 # 2. Error analysis and performance auditing
 ## 2.1 Error analysis example 
++ Error analysis is a heart of machine learning development process
+## 2.2 Prioritizing what to work on
++ Decide on most important categories to work on based on:
+   + How much room for improvement there is
+   + How frequently that category appears
+   + How easy is to improve accuracy in that category
+   + How important it is to improve in that category
++ Adding/improving data dor specific categories
+   + For categories you want to prioritize:
+      +  Collect more data
+      +  Use data augmentation to get more data
+      +  Improve label accuracy/data quality
+## 2.3 Skewed dataset
++ Skewed dataset is the dataset having ratio of positive-negative very far from 50-50
++ Use confusion matrix
++ Precision, Recall, F1
+## 2.4 Auditing Performance
+1. Brainstorm the ways the system might go wrong
+   + Performance on subsets of data (eg ethnicity, gender)
+   + How common are certain errors (eg FP, FN)
+   + Performance on rare classes
+2. Establish metrics to assess performance against these issues on appropriate slices of data
+3. Get bussiness/product owner buy-in
+
+## 2. Data centric
+### 2.1 Data-centric AI development
