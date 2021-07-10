@@ -27,3 +27,9 @@
     + Can get all the labelers to talk to each other
   + Big data
     + Emphasis on data process
+
+### 3.4 Small data and label consistency
+
+### 3.5 Improving label consistency
+
+
