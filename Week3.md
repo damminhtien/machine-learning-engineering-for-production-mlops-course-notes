@@ -31,5 +31,9 @@
 ### 3.4 Small data and label consistency
 
 ### 3.5 Improving label consistency
++ Have multiple labelers label same example
++ When there is a disagreement, have MLE, subject matter expert (SME) and/or labelers discuss definition of y to reach agreement
++ If labelers believe that x doesn't contain enough information consider changing x
++ Iterative until it is hard to significantly increase agreement
 
 
