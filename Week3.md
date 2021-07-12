@@ -39,6 +39,11 @@
 + Small data vs. big data (unstructured data)
   + Small data
     + Usually small number of labelers
-    + Can ask 
+    + Can ask labelers to discuss specific labels
+  + Big data
+    + Get to consistent definition with a small group
+    + Then send labeling instructions to labelers
+    + Can consider having multiple labelers label every example and using voting or consensus labels to increase accuracy
+ 
 
 
