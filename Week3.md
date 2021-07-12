@@ -45,5 +45,12 @@
     + Then send labeling instructions to labelers
     + Can consider having multiple labelers label every example and using voting or consensus labels to increase accuracy
  
+### 3.6 Human level performance (HLP)
+  + Why measure HLP?
+    + Estimate Bayes error / irreduciblle error to help with error analysis and prioritization 
+  + Other uses of HLP
+    + In academia, establish and beat a respectable benchmark to support publication
+    + Business or product owner asks for 99% accuracy. HLP helps establish a more reasonable target
+    + 'Prove' the ML system is superir to humans doing the job and thus the business or product owner should adopt it
 
-
+### 3.7 Raising HLP
