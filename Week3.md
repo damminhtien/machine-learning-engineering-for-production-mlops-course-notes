@@ -54,3 +54,8 @@
     + 'Prove' the ML system is superir to humans doing the job and thus the business or product owner should adopt it
 
 ### 3.7 Raising HLP
+  + When the ground truth label is externally defined., HLP gives an estimate for Bayes error / irreducible error. But often GT is just another human label
+  + When the label y comes from a human label. HLP << 100% may indicate ambiguous labeling instruction
+  + Improving label consistency will raise HLP
+  + This makes it harder for ML to beat HLP But the more consistent labels will raise ML performance, which is ultimately likely to benefit the actual application performance
+  
