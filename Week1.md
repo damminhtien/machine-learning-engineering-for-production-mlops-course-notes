@@ -3,6 +3,7 @@
 ## 1. The Machine Learning Project Lifecycle
 ### 1.1 Welcome
 ### 1.2 Steps of an ML Project
+![ML lifecycle](https://github.com/damminhtien/Machine-Learning-in-Production-Course-Notes/blob/main/MLlifecycle.png?raw=true)
 ### 1.3 Case study: speech recognition
 ### 1.4 Course outline
 
