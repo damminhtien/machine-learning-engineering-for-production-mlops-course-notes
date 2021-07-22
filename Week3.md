@@ -61,7 +61,7 @@
   + Improving label consistency will raise HLP
   + This makes it harder for ML to beat HLP But the more consistent labels will raise ML performance, which is ultimately likely to benefit the actual application performance
  
-## 2.Label and Organize Data
+## 2. Label and Organize Data
 ### 2.1 Obtaining data
 + How long should you spend obtaining data?
   + Get into this iteration loop as quickly possible
@@ -75,5 +75,20 @@
     + Factory inspection, medical image diagnosis - SME (subject matter expert)
     + Recommender systems - maybe impossible to label well
   + Dont increase data more than 10x at a time
+
+### 2.2 Data pipeline
++ POC and Production phases
+  + POC (proof-of-concept)
+    + Goal is to decide if the application is workable and worth deploying
+    + Focus on getting the prototype to work
+    + It's ok if data pre-processing is manual. But take extensive notes/comments.
+  + Production phase
+    + After project utility is established, use more sophiticated tools to make sure the data pipeline is replicable
+    + Eg, TF Transform, Apache Beam, Airflow
+
+### 2.3 Meta-data, data provenance and lineage
++ In large complex machine learning systems that you might need to maintain, keeping track of data provenance and lineage can make your life much easier. As part of building out the systems, consider keeping track of metadata, which can help you with tracking data provenance, but also error analysis. 
++ Data provenance refers to where the data comes from, and data lineage the sequence of processing steps applied to it.
+
 
 
